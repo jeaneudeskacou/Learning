@@ -1,0 +1,8 @@
+<div>
+    <h3>{{data?.debut}} - {{data?.fin}}: {{data?.type}} - {{data?.structure}} : {{data?.titre}}</h3>
+    <ul>
+        <li *ngFor="let activite of data?.activites">{{activite}}</li>
+    </ul>
+    <br/>
+    <span *ngFor="let techno of data?.technologies; let isLast = last">{{isLast ? techno : techno +", " }}</span>
+</div>

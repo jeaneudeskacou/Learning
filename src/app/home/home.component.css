@@ -1,0 +1,44 @@
+.float {
+    float: left;
+}
+
+.afterFloat {
+    clear: both;
+}
+
+a img {
+    transition: 500ms;
+    background-color: aqua;
+}
+
+
+a img:hover {
+    translate: 1em;
+    transition: 500ms;
+    background-color: rgb(10, 55, 55);
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active{
+    display: inline-block;
+    transition: 500ms;
+    color: black;
+    text-shadow: 20px yellow;
+}
+
+a:focus {
+    display: inline-block;
+    transition: 500ms;
+    color: red;
+}
+
+a:hover {
+    background-color: aquamarine;
+    display: inline-block;
+    translate: 1em;
+    transition: 500ms;
+}

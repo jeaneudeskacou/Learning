@@ -1,0 +1,68 @@
+<div class="cv-body">
+    <section class="personnal-info">
+        <figure>
+            <img src="../assets/images/pp.png" alt="photo de profil" width="200" height="200">
+            <figcaption>{{nom_prenom}}</figcaption>
+        </figure>
+        <section class="contacts">
+            <div class="float-img">
+                <img src="../assets/images/email_icon.png" alt="email">
+                <span><a href="mailto:{{mail}}">{{mail}}</a></span>
+            </div>
+            <div class="float-img">
+                <img src="../assets/images/phone_icon.png" alt="email">
+                <span><a href="tel:{{numero}}">{{numero}}</a></span>
+            </div>
+            <div class="float-img">
+                <img src="../assets/images/home_icon.png" alt="email">
+                <span>Rennes, France</span>
+            </div>
+        </section>
+        <section>
+            <h3>Connaissances</h3>
+            <hr>
+            <ul>
+                <li *ngFor="let connaissance of connaissances">{{connaissance}}</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Langages</h3>
+            <hr>
+            <ul>
+                <li *ngFor="let langage of langages">{{langage}}</li>
+            </ul>
+        </section>
+    </section>
+
+    <section class="main-content">
+        <h1 class="title">{{cv_title}}</h1>
+        <p class="description">{{cv_description}}</p>
+
+        <section class="experiences">
+            <h2 class="title-exp">Experiences professionnelles</h2>
+            <hr>
+            <ul class="exp-section">
+                <!--Lister les experiences-->
+                <li *ngFor="let exp of experiences">
+                    <app-experience [data]="exp"></app-experience>
+                </li>
+            </ul>
+        </section>
+
+        <section class="formation">
+            <h2 class="title-exp">Formations</h2>
+            <hr>
+            <ul class="exp-section">
+                <!--Lister les experiences-->
+            </ul>
+        </section>
+        <section class="projets">
+            <h2 class="title-exp">Projets</h2>
+            <hr>
+            <ul class="exp-section">
+                <!--Lister les experiences-->
+            </ul>
+        </section>
+    </section>
+</div>
