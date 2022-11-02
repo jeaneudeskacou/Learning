@@ -1,0 +1,50 @@
+{
+    "experiences": [
+        {
+            "type": "Alternance",
+            "structure": "Atos",
+            "debut": "09/2020",
+            "fin": "09/2021",
+            "titre": "Développement sur un projet de supervision et de reporting pour un opérateur télécom",
+            "activites": [
+                "Analyse des besoins du client",
+                "Implémentation d’évolutions et de correctifs",
+                "Mise en place d’un outil d’analyse de qualité de code (SonarQube)"
+            ],
+            "technologies": [
+                "RHEL7", "Java", "PHP", "OrientDB", "Cassandra", "ElasticSearch", "Maven"
+            ]
+        },
+        {
+            "type": "Stage",
+            "structure": "Atos",
+            "debut": "06/2020",
+            "fin": "09/2020",
+            "titre": "Développement d'une application web avec Django",
+            "activites": [
+                "Réalisation d’une plateforme web pour la gestion de collecteurs de données",
+                "Développement fullstack Javascript – Django"
+            ],
+            "technologies": [
+                "Python3", "Django", "JavaScript", "HTML5"
+            ]
+        }
+    ],
+    "Formations": [
+        {
+            "type": "Diplôme",
+            "structure": "Ecole Supérieure d'Ingénieurs de Rennes (ESIR)",
+            "debut": "09/2020",
+            "fin": "09/2021",
+            "titre": "Technologies de l’information option Télécom & Réseaux",
+            "activites": []
+        }
+    ],
+    "Projets": [
+        {
+            "tags": ["Programmation", "Web", "Angular", "Base de données"],
+            "titre": "Developpement d'un éditeur de CV",
+            "lien": "https://www.monprojet.net"
+        }
+    ]
+}
