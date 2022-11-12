@@ -54,7 +54,9 @@
             <h2 class="title-exp">Formations</h2>
             <hr>
             <ul class="exp-section">
-                <!--Lister les experiences-->
+                <li *ngFor="let formation of formations">
+                    <app-formation [data]="formation" ></app-formation>
+                </li>
             </ul>
         </section>
         <section class="projets">

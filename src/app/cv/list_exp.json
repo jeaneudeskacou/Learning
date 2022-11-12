@@ -3,6 +3,8 @@
         {
             "type": "Alternance",
             "structure": "Atos",
+            "pays": "France",
+            "ville": "Rennes",
             "debut": "09/2020",
             "fin": "09/2021",
             "titre": "Développement sur un projet de supervision et de reporting pour un opérateur télécom",
@@ -18,6 +20,8 @@
         {
             "type": "Stage",
             "structure": "Atos",
+            "pays": "France",
+            "ville": "Rennes",
             "debut": "06/2020",
             "fin": "09/2020",
             "titre": "Développement d'une application web avec Django",
@@ -30,14 +34,30 @@
             ]
         }
     ],
-    "Formations": [
+    "formations": [
         {
-            "type": "Diplôme",
+            "type": "Diplôme d'Ingénieur",
             "structure": "Ecole Supérieure d'Ingénieurs de Rennes (ESIR)",
+            "pays": "France",
+            "ville": "Rennes",
             "debut": "09/2020",
             "fin": "09/2021",
             "titre": "Technologies de l’information option Télécom & Réseaux",
-            "activites": []
+            "activites": [
+                "Routage: RIP, OSPF, BGP", "Réseaux d'entreprise", "Réseaux d'opérateurs", "Théorie des graphes"
+            ]
+        },
+        {
+            "type": "Diplôme d'Ingénieur",
+            "structure": "Institut National Houphoet Bouagny (INP-HB)",
+            "pays": "Côte d'Ivoire",
+            "ville": "Yamoussoukro",
+            "debut": "09/2020",
+            "fin": "09/2021",
+            "titre": "Sciences de l'information et de la communication",
+            "activites": [
+                "Structures de données avancées avec Python", "Programmation web: WAMP"
+            ]
         }
     ],
     "Projets": [

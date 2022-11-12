@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ExperienceInterface } from '../cv/Experience';
+import { ExperienceInterface } from '../cv/ElementCursus';
 
 @Component({
   selector: 'app-experience',
@@ -8,11 +8,11 @@ import { ExperienceInterface } from '../cv/Experience';
 })
 export class ExperienceComponent implements OnInit {
   @Input() data: ExperienceInterface | undefined;
+  type_activite: string = "missions";
   constructor() { 
   }
 
   ngOnInit(): void {
-    console.log(this.data?.activites)
   }
  
 }

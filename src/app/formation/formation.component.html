@@ -1,1 +1,9 @@
-<p>formation works!</p>
+<div>
+    <h3>{{data?.debut}} - {{data?.fin}}: {{data?.type}} - {{data?.structure}} : {{data?.titre}} - <span>{{data?.pays}} - {{data?.ville}} </span> </h3>
+    <h4 *ngIf="getActivitySize()">{{type_activite}}</h4>
+    <ul>
+        <li *ngFor="let activite of data?.activites">{{activite}}</li>
+    </ul>
+    <br/>
+    <span *ngFor="let techno of data?.technologies; let isLast = last">{{isLast ? techno : techno +", " }}</span>
+</div>
