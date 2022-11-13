@@ -1,0 +1,12 @@
+<div>
+    <h3>{{data?.debut}} - {{data?.fin}}: {{data?.type}} <span *ngIf="data?.structure != undefined">- {{data?.structure}}</span> : {{data?.titre}} - <span>{{data?.pays}} - {{data?.ville}} </span> </h3>
+    <h4 *ngIf="getActivitySize()">{{type_activite}}</h4>
+    <ul class="activites">
+        <li *ngFor="let activite of data?.activites">{{activite}}</li>
+    </ul>
+    <ul class="tags">
+        
+    </ul>
+    <br/>
+    <strong *ngIf="getTechnoSize()"> Environnement technique: </strong> <span *ngFor="let techno of data?.technologies; let isLast = last">{{isLast ? techno : techno +", " }}</span>
+</div>

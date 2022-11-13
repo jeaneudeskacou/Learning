@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ExperienceInterface, Formation } from './ElementCursus';
+import { ExperienceInterface, Formation, Projet } from './ElementCursus';
 import list_exp from './list_exp.json';
 
 @Component({
@@ -24,7 +24,7 @@ tant qu’ingénieur DevOps`;
   langages: string[] = ["Français", "Anglais"];
   experiences: ExperienceInterface[] = list_exp.experiences;
   formations: Formation[] = list_exp.formations;
-
+  projets: Projet[] = list_exp.projets;
   constructor() { }
 
   ngOnInit(): void {

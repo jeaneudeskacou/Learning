@@ -14,5 +14,16 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit(): void {
   }
- 
+  getActivitySize(): boolean | undefined {
+    if (this.data?.activites != undefined && this.data?.activites?.length > 0){
+      return true;
+    } else return false;
+    
+  }
+
+  getTechnoSize(){
+    if(this.data?.technologies != undefined && this.data.technologies.length > 0){
+      return true; 
+    } else return false;
+  }
 }

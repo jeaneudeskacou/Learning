@@ -60,11 +60,29 @@
             ]
         }
     ],
-    "Projets": [
+    "projets": [
         {
+            "type": "Projet personnel",
+            "debut": "11/2022",
+            "fin": "En cours",
+            "titre": "Développement d'un éditeur de CV",
             "tags": ["Programmation", "Web", "Angular", "Base de données"],
-            "titre": "Developpement d'un éditeur de CV",
-            "lien": "https://www.monprojet.net"
+            "technologies": ["HTML5", "CSS3", "Angular"],
+            "description": "Développement d'un éditeur simple de CV"
+        },
+        {
+            "type": "Projet d'école",
+            "debut": "01/2019",
+            "fin": "06/2019",
+            "titre": "Réalisation d'un capteur de température et de pression",
+            "tags": ["Programmation", "Web", "PHP", "Base de données", "Raspberry Pi", "capteur de température et de pression"],
+            "technologies": ["Debian", "Apache Web Server", "PHP", "HTML5", "CSS3", "Raspberry Pi"],
+            "description": "Conception et Réalisation d'un système de capture de température et de pression et mise en à disposition des données sur un site web. Le tout à base de Raspberry Pi",
+            "activites": [
+                "Conception de l'architecture du système",
+                "Choix des équipements",
+                "Developpement d'un site web pour la consultation des données"
+            ]
         }
     ]
 }

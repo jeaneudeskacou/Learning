@@ -43,7 +43,6 @@
             <h2 class="title-exp">Experiences professionnelles</h2>
             <hr>
             <ul class="exp-section">
-                <!--Lister les experiences-->
                 <li *ngFor="let exp of experiences">
                     <app-experience [data]="exp"></app-experience>
                 </li>
@@ -63,7 +62,9 @@
             <h2 class="title-exp">Projets</h2>
             <hr>
             <ul class="exp-section">
-                <!--Lister les experiences-->
+                <li *ngFor="let projet of projets">
+                    <app-projet [data]="projet"></app-projet>
+                </li>
             </ul>
         </section>
     </section>

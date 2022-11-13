@@ -4,6 +4,7 @@
 }
 
 .personnal-info {
+    position: fixed;
     width: 20%;
     background-color: rgb(243, 243, 239);
     border-radius: 1em;
@@ -81,6 +82,7 @@ h3 + hr {
 }
 
 .main-content {
+    margin-left: 20%;
     width: 60%;
     padding: 0 1em;
 }

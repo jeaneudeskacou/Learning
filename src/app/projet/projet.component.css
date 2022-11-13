@@ -1,0 +1,11 @@
+h4 {
+    margin-top: -1em;
+    margin-bottom: -0.1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h3 > span {
+    font-weight: lighter;
+    font-style: italic;
+}

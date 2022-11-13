@@ -1,9 +1,9 @@
 export interface ElementCursus {
     type: string;
     titre: string;
-    pays: string;
-    ville: string;
-    structure: string;
+    pays?: string;
+    ville?: string;
+    structure?: string;
     debut?: string;
     fin?: string;
     activites?: string[];
@@ -15,4 +15,10 @@ export interface ExperienceInterface extends ElementCursus{
 
 export interface Formation extends ElementCursus{
     
+}
+
+export interface Projet extends ElementCursus {
+    description: string;
+    tags: string[];
+    lien?: string;
 }

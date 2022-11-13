@@ -5,5 +5,4 @@
         <li *ngFor="let activite of data?.activites">{{activite}}</li>
     </ul>
     <br/>
-    <span *ngFor="let techno of data?.technologies; let isLast = last">{{isLast ? techno : techno +", " }}</span>
-</div>
+    <strong *ngIf="getTechnoSize()"> Environnement technique: </strong> <span *ngFor="let techno of data?.technologies; let isLast = last">{{isLast ? techno : techno +", " }}</span></div>

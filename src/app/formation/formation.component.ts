@@ -12,15 +12,18 @@ export class FormationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.data);
   }
 
   getActivitySize(): boolean | undefined {
     if (this.data?.activites != undefined && this.data?.activites?.length > 0){
       return true;
-    } else {
-      return false;
-    }
+    } else return false;
     
+  }
+
+  getTechnoSize(){
+    if(this.data?.technologies != undefined && this.data.technologies.length > 0){
+      return true; 
+    } else return false;
   }
 }
