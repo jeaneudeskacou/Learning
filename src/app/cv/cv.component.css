@@ -107,3 +107,7 @@ h2 + hr {
     background-color: rgb(183, 31, 161);
     height: 0.5em;
 }
+
+.projets > ul {
+    text-decoration: none;
+}
