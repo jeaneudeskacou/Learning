@@ -1,6 +1,24 @@
 {
     "experiences": [
         {
+            "type": "CDI",
+            "structure": "Atos",
+            "pays": "France",
+            "ville": "Rennes",
+            "debut": "10/2021",
+            "fin": "-",
+            "titre": "Développement et maintenance applicatif sur une application de reporting pour un opérateur télécom",
+            "activites": [
+                "Analyse des besoins du client",
+                "Implémentation d’évolutions et de correctifs",
+                "Rédaction de documentations",
+                "Réalisation de tests"
+            ],
+            "technologies": [
+                "RHEL8", "Java", "Python 2/3", "H2", "OrientDB", "Cassandra", "ElasticSearch", "Kafka", "Maven", "GIT", "GITHUB"
+            ]
+        },
+        {
             "type": "Alternance",
             "structure": "Atos",
             "pays": "France",
